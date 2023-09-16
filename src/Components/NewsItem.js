@@ -9,7 +9,7 @@ export class NewsItem extends Component {
       <>
       
       <div className="card">
-        <img src={imageUrl} className="card-img-top" alt=''/>
+        <img src={imageUrl} className="card-img-top" alt='News Image'/>
         <div className="card-body">
           <h5 className="card-title text-truncate">{title}</h5>
           <p className="card-text text-truncate">{description}</p>
